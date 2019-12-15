@@ -1,0 +1,46 @@
+.title{
+	font-size: $h1_desktop;
+	font-weight: $bold;
+	line-height: $desktop-lh;
+	text-shadow: 0px 4px 16px rgba(150, 150, 150, 1);
+	position: absolute;
+	z-index: 1000;
+	text-align: center;
+}
+
+.poem{
+	font-family: 'Inria Serif', serif;
+	font-weight: $bold;
+	font-style: italic;
+	font-size: $h3_desktop;
+	text-align: left;
+	background-color: $ivory;
+}
+
+.short_text{
+	font-size: $text_desktop;
+	font-weight: $light;
+
+}
+
+// mobile screen
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+
+	.title{
+		font-size: $h1_mobile;
+		line-height: $mobile-lh;
+	}
+
+	.poem{
+		font-size: $h3_mobile;
+		line-height: $mobile-lh;
+
+	}
+
+	.short_text{
+		font-size: $text_mobile;
+		line-height: $mobile-lh;
+	}
+
+}
