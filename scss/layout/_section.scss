@@ -1,0 +1,30 @@
+
+.poem{
+	font-family: 'Inria Serif', serif;
+	font-weight: $bold;
+	font-style: italic;
+	font-size: $h3_desktop;
+	text-align: left;
+	background-color: $ivory;
+}
+
+
+.container{
+	max-width: 50%;
+	padding: $container_desktop;
+}
+
+// mobile screen
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+
+	.container{
+		max-width: 100%;
+		padding: $container_mobile;
+	}
+
+	.poem{
+		font-size: $h3_mobile;
+		font-weight: $light;
+	}
+}
