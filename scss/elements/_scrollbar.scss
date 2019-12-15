@@ -1,0 +1,34 @@
+// smooth scrolling bar
+
+.smooth_scroll{
+	background-color: $light_grey;
+	display: inline;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
+.navigate .scroll{
+	text-decoration: none;
+	font-weight: $light;
+}
+
+.navigate li{
+	display: inline-block;
+}
+
+.navigate li a{
+	padding: $nav_padd;
+	display: block;
+	color: black;
+}
+
+.navigate a:hover{
+	font-weight: $bold;
+	border-bottom: 2px solid black;
+}
+
+.navigate .active a{
+	font-weight: $bold;
+}

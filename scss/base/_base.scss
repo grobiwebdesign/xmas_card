@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+body{
+	font-family: 'Sulphur Point', sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.2rem;
+	font-size: 1.1rem;
+}
+
+section{
+	min-width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+#greet{
+	background-image: url(../imgs/xmas_border.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
