@@ -1,7 +1,7 @@
 // smooth scrolling bar
 
 .smooth_scroll{
-	background-color: $light_grey;
+	background-color: $midnight;
 	display: inline;
 	text-align: center;
 	position: fixed;
@@ -21,14 +21,15 @@
 .navigate li a{
 	padding: $nav_padd;
 	display: block;
-	color: black;
+	color: $ivory;
 }
 
 .navigate a:hover{
 	font-weight: $bold;
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid $ivory;
 }
 
 .navigate .active a{
 	font-weight: $bold;
 }
+

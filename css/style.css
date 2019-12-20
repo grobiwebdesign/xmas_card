@@ -1,5 +1,5 @@
 .smooth_scroll {
-  background-color: #f2f2f2;
+  background-color: #0A0A0A;
   display: inline;
   text-align: center;
   position: fixed;
@@ -19,12 +19,12 @@
 .navigate li a {
   padding: 1rem 1.5rem;
   display: block;
-  color: black;
+  color: #FFFFF0;
 }
 
 .navigate a:hover {
   font-weight: 700;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #FFFFF0;
 }
 
 .navigate .active a {
